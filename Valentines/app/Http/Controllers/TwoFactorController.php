@@ -1,4 +1,4 @@
-<<?php  ublic function verifyTwoFactor(Request $request)
+<?php  public function verifyTwoFactor(Request $request)
    {
        $request->validate([
            '2fa' => 'required',

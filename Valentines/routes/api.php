@@ -24,3 +24,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     Route::get('find/{token}', 'PasswordResetController@find');
     Route::post('reset', 'PasswordResetController@reset');
 });
+});
